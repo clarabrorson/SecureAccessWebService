@@ -82,6 +82,7 @@ The CRUD operations can be performed on the user entity and the order entity.
 + Spring Boot Starter Security Test
 
 ## License
+MIT License
 
 
 
