@@ -81,6 +81,10 @@ The CRUD operations can be performed on the user entity and the order entity.
 + Spring Boot Starter Test
 + Spring Boot Starter Security Test
 
+## Credits
+The project is based on the following repository:
+[Unknownkoder - Spring security login system](https://github.com/unknownkoder/spring-security-login-system)
+
 ## License
 MIT License
 
