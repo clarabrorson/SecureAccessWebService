@@ -13,7 +13,7 @@ The CRUD operations can be performed on the user entity and the order entity.
 ## Installation
 #### Javaversion: 17 java version 17.0.1
 #### Database: MySQL
-#### Postman
+#### API platform: Postman
 + Download and install [IntelliJ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 + Download and install [MySQL](https://dev.mysql.com/downloads/mysql/)
 + Download and install [Postman](https://www.postman.com/downloads/)
@@ -69,7 +69,7 @@ The CRUD operations can be performed on the user entity and the order entity.
 
 
 ## Execution
-+ To run the program, open the project in your IDE and run the SecureAccessWebServiceApplication.
+To run the program, open the project in your IDE and run the SecureAccessWebServiceApplication.java 
 
 ## Dependencies
 + Spring Boot Starter Web
@@ -86,7 +86,7 @@ The project is based on the following repository:
 [Unknownkoder - Spring security login system](https://github.com/unknownkoder/spring-security-login-system)
 
 ## License
-MIT License
+[MIT License](https://choosealicense.com/licenses/mit/)
 
 
 
