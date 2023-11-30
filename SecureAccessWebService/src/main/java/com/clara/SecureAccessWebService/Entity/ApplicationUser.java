@@ -24,13 +24,6 @@ public class ApplicationUser implements UserDetails{
     @Column(unique=true)
     private String username;
     private String password;
-
-    //Definierar en många till många relation(Kopplingstabell) mellan användare och roll
-    // EAGER = hämtar alltid användarens roll/behörighet
-    // "user_role_junction" = namnet på kopplingstabellen
-    // joinColums kommer att användas som en främmande nyckel i kopplingstabellen
-    // inverseJoinColumns kommer att användas som en främmande nyckel i kopplingstabellen
-    // De främmande nycklarna kommer att koppla samman användare och roll
     @ManyToMany(fetch=FetchType.EAGER)
     @JoinTable(
             name="user_role_junction",
@@ -47,8 +40,6 @@ public class ApplicationUser implements UserDetails{
         super();
         authorities = new HashSet<>();
     }
-
-
     public ApplicationUser(Integer userId, String username, String password, Set<Role> authorities) {
         super();
         this.userId = userId;

@@ -19,7 +19,6 @@ public class Order {
     private ApplicationUser user;
     public Order() {
     }
-
     public Order(Long id, String productName, String quantity) {
         this.id = id;
         this.productName = productName;
