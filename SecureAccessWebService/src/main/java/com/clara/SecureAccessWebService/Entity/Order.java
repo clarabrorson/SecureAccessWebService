@@ -15,7 +15,7 @@ public class Order {
     private String productName;
     private String quantity;
 
-    @JoinColumn(name = "user_id") // Detta måste matcha namnet på kolumnen i databasen
+    @JoinColumn(name = "user_id")
     private ApplicationUser user;
     public Order() {
     }

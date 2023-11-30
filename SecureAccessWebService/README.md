@@ -21,7 +21,7 @@ The CRUD operations can be performed on the user entity and the order entity.
 + Open the project in your IDE
 + Create a database in MySQL with the name "security"
 + Change the username and password in the application.properties file to your own username and password.
-+ Launch Spring Boot from the SecureAccessWEbServiceApplication.
++ Launch Spring Boot from the SecureAccessWebServiceApplication.java
 #### User access:
 + Open Postman and create a POST request to http://localhost:8080/auth/register with the following body:
 ```
@@ -39,9 +39,9 @@ The CRUD operations can be performed on the user entity and the order entity.
 + http://localhost:8080/user/
 + http://localhost:8080/user/users
 + http://localhost:8080/user/{id}
-+ http://localhost:8080/order/createOrder
-+ http://localhost:8080/orders
-+ http://localhost:8080/order/{id}
++ http://localhost:8080/user/createOrder
++ http://localhost:8080/user/allOrders
++ http://localhost:8080/user/order/{id}
 
 #### Admin access:
 + Open Postman and create a POST request to http://localhost:8080/auth/login with the following body:
